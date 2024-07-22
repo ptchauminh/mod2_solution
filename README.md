@@ -1,2 +1,4 @@
-# mod2_solution
-Coursera test mod2
+# Module 2 Coding Assignment
+by Phạm Thị Minh Châu
+
+Coursera Assignment 2
