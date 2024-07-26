@@ -127,44 +127,70 @@
   }
 }
 .relative > .menu-body {
-	position: relative;
-	box-sizing: border-box;
+  position: relative;
+  box-sizing: border-box;
   padding: 0;
-  border: 1px solid #A96BA3;
+  border: 1px solid black;
   border-radius: 4px;
   margin: 8px;
-  color: #E8EDF1;
-  background-color: #27282C;
+  color: black;
+  background: linear-gradient(144deg, rgba(183,174,238,1) 0%, rgba(148,224,233,1) 100%);
+
 }
 
-.right-title{
-	font-size: 125%;
-  font-weight: bold; !important;
+.right-title1{
+  font-size: 125%;
+  font-weight: bold !important;
   color: #1A1C1F;
-  background: var(--Light-Gradient-4-color, linear-gradient(90deg, #058FFF -12.01%, #FF82F3 30.32%, #F64B43 72.65%, #FFB300 114.97%));
+  background: linear-gradient(164deg, rgba(0,254,255,1) 0%, rgba(241,150,255,1) 100%);
   position: absolute;
-	right:0px;
-	width: 150px;
-	padding:8px;
-	text-align: center;
-  border: 1px solid #A96BA3;
+  right:0px;
+  width: 150px;
+  padding:8px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.right-title2{
+  font-size: 125%;
+  font-weight: bold !important;
+  color: #1A1C1F;
+  background: linear-gradient(164deg, rgba(255,150,251,1) 0%, rgba(255,147,147,1) 100%);
+  position: absolute;
+  right:0px;
+  width: 150px;
+  padding:8px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.right-title3{
+  font-size: 125%;
+  font-weight: bold !important;
+  color: #1A1C1F;
+  background: linear-gradient(164deg, rgba(255,100,100,1) 0%, rgba(255,226,150,1) 100%);
+  position: absolute;
+  right:0px;
+  width: 150px;
+  padding:8px;
+  text-align: center;
+  border: 1px solid black;
   border-radius: 2px;
 }
 body{
-	font-family: Arial, Helvetica, sans-serif;;
-	padding: 0px 24px;
-  background-color: #1A1C1F;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 24px;
 }
 
 p{
-	padding:48px 24px 16px 24px;
-	line-height: 24px;
+  padding:48px 24px 16px 24px;
+  line-height: 24px;
 }
 h1{
-	text-align: center;
-	font-size: 175%;
-	padding: 24px 0px 24px 0px;
-  background: linear-gradient(90deg, rgba(5,143,255,1) 14%, rgba(255,130,243,1) 38%, rgba(246,75,67,1) 60%, rgba(255,179,0,1) 83%);
+  text-align: center;
+  font-size: 175%;
+  padding: 24px 0px 24px 0px;
+  background: linear-gradient(279deg, rgba(47,128,255,1) 0%, rgba(216,115,249,1) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
